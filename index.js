@@ -2,7 +2,7 @@ function myName(name, surname) {
   console.log("My name is " + name, surname);
 }
 
-myName("Dosbol", "Orozobekov")
+myName("Dosbol", "Orozobekov");
 
 function number(num) {
   if (num % 2 === 0) {
@@ -13,5 +13,13 @@ function number(num) {
   }
 }
 
-number(15)
-number(2)
+number(15);
+number(2);
+
+function kvadrat(a) {
+  return a * a;
+}
+
+console.log(kvadrat(6));
+console.log(kvadrat(4));
+
