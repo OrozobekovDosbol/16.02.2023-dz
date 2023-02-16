@@ -23,3 +23,8 @@ function kvadrat(a) {
 console.log(kvadrat(6));
 console.log(kvadrat(4));
 
+function getpyatiygol(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
+
+console.log(getpyatiygol(2, 3, 5, 2, 3));
