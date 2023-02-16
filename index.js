@@ -28,3 +28,9 @@ function getpyatiygol(a, b, c, d, e) {
 }
 
 console.log(getpyatiygol(2, 3, 5, 2, 3));
+
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+  	console.log(i);
+  }
+}
