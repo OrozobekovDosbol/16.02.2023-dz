@@ -1,9 +1,13 @@
+//1
 function myName(name, surname) {
   console.log("My name is " + name, surname);
 }
 
 myName("Dosbol", "Orozobekov");
 
+
+
+//4
 function number(num) {
   if (num % 2 === 0) {
     console.log(num + " - четное");
@@ -16,6 +20,7 @@ function number(num) {
 number(15);
 number(2);
 
+//5
 function kvadrat(a) {
   return a * a;
 }
@@ -40,3 +45,12 @@ for (let i = 0; i <= 15; i++) {
   	console.log(i);
   }
 }
+
+//2
+function printVolume(height, radius) {
+  let result = height * radius;
+  console.log("Обьем конуса равен - " + result);
+}
+
+printVolume(5, 5);
+
