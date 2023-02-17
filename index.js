@@ -5,7 +5,11 @@ function myName(name, surname) {
 
 myName("Dosbol", "Orozobekov");
 
-
+//3
+function getLength(str) {
+  console.log("длинна строки равна - "  + str.length);
+}
+getLength("Dosbol");
 
 //4
 function number(num) {
@@ -28,6 +32,8 @@ function kvadrat(a) {
 console.log(kvadrat(6));
 console.log(kvadrat(4));
 
+
+//7
 function getpyatiygol(a, b, c, d, e) {
   return a + b + c + d + e;
 }
@@ -54,9 +60,8 @@ function printVolume(height, radius) {
 
 printVolume(5, 5);
 
-//3
-function getLength(str) {
-  console.log("длинна строки равна - "  + str.length);
+//8
+for (let i = 0; i <= 33; i++) {
+  if (i % 3 === 0) console.log(i);
 }
-getLength("Dosbol");
 
