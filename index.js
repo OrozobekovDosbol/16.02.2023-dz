@@ -54,3 +54,9 @@ function printVolume(height, radius) {
 
 printVolume(5, 5);
 
+//3
+function getLength(str) {
+  console.log("длинна строки равна - "  + str.length);
+}
+getLength("Dosbol");
+
