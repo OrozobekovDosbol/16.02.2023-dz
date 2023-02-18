@@ -76,3 +76,8 @@ for (let i = 1; i <= 7; i++) {
   total = total * i;
 }
 console.log("факториал числа 8 равняется " + total);
+
+//14
+let str = ["dog", "dog"];
+str.push("cat", "cat", "cat");
+console.log(str);
