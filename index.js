@@ -87,3 +87,7 @@ let sayHello = ["Dosbol", "Ermek", "Sanat"];
 for (let i = 0; i < sayHello.length; i++) {
   console.log("Hello - " + sayHello[i]);
 }
+
+//18
+let numss = ["one", "two", "three"];
+console.log(numss.reverse());
