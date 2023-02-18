@@ -40,12 +40,16 @@ function getpyatiygol(a, b, c, d, e) {
 
 console.log(getpyatiygol(2, 3, 5, 2, 3));
 
+
+//12
 for (let i = 0; i <= 20; i++) {
   if (i % 2 === 0) {
   	console.log(i);
   }
 }
 
+
+//13
 for (let i = 0; i <= 15; i++) {
   if (i % 2 !== 0) {
   	console.log(i);
@@ -65,3 +69,10 @@ for (let i = 0; i <= 33; i++) {
   if (i % 3 === 0) console.log(i);
 }
 
+
+//9
+let total = 8;
+for (let i = 1; i <= 7; i++) {
+  total = total * i;
+}
+console.log("факториал числа 8 равняется " + total);
