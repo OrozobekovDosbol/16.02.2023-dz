@@ -81,3 +81,9 @@ console.log("факториал числа 8 равняется " + total);
 let str = ["dog", "dog"];
 str.push("cat", "cat", "cat");
 console.log(str);
+
+//19
+let sayHello = ["Dosbol", "Ermek", "Sanat"];
+for (let i = 0; i < sayHello.length; i++) {
+  console.log("Hello - " + sayHello[i]);
+}
