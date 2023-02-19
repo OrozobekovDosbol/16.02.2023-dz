@@ -91,3 +91,10 @@ for (let i = 0; i < sayHello.length; i++) {
 //18
 let numss = ["one", "two", "three"];
 console.log(numss.reverse());
+
+//10
+for (let i = 0; i <= 10; i++) {
+  result = i * i;
+  console.log(result);
+}
+
