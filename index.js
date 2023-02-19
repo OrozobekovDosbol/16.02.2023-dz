@@ -98,3 +98,9 @@ for (let i = 0; i <= 10; i++) {
   console.log(result);
 }
 
+//11
+let sumOfNumbers = 0;
+for (let i = 0; i <= 25; i++) {
+  sumOfNumbers = sumOfNumbers + i;
+}
+console.log("сумма чисел цикла ровняется - " + sumOfNumbers);
