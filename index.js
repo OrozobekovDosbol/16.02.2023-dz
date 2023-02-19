@@ -112,3 +112,7 @@ let to = ["to"];
 let eat = ["eat!"];
 let myHobby = [...my, ...like, ...to, ...eat];
 console.log(myHobby);
+
+//21
+let database = ["cat", "dog", "snake"];
+console.log(database.indexOf("snake") != - 1)
