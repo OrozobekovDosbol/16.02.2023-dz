@@ -104,3 +104,11 @@ for (let i = 0; i <= 25; i++) {
   sumOfNumbers = sumOfNumbers + i;
 }
 console.log("сумма чисел цикла ровняется - " + sumOfNumbers);
+
+//17
+let my = ["I"];
+let like = ["like"];
+let to = ["to"];
+let eat = ["eat!"];
+let myHobby = [...my, ...like, ...to, ...eat];
+console.log(myHobby);
