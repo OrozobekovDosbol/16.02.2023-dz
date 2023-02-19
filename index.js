@@ -58,11 +58,11 @@ for (let i = 0; i <= 15; i++) {
 
 //2
 function printVolume(height, radius) {
-  let result = height * radius;
+  let result = 1 / 3 * 3.14 * radius * radius * height;
   console.log("Обьем конуса равен - " + result);
 }
 
-printVolume(5, 5);
+printVolume(20, 5);
 
 //8
 for (let i = 0; i <= 33; i++) {
